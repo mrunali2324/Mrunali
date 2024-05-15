@@ -1,0 +1,445 @@
+    /* CSS for the partitions */
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  html, body {
+          height: 100%;
+          width: 100%;
+          margin: 0;
+      }
+     
+  .container {
+      display: flex;
+      height: 1000px;
+  }
+
+.partition1 {
+      width: 190px;
+      background-color: rgb(244, 215, 255);
+      padding: 20px;
+      height: 600px;
+      position: fixed;
+  }
+  .box input{
+      height: 30px;
+      width: 300px;
+      margin-left: 10px;
+      border: #fff;
+
+     }
+
+     .partition1 h3{
+      font-size: 25px;
+      
+
+     }
+     .partition1 h1{
+      font-size: 30px;
+      
+
+     }
+
+
+     .a{
+      font-size: 17px;
+     }
+  input[type="checkbox"] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      border: 2px solid #555;
+      border-radius: 3px;
+      outline: none;
+      cursor: pointer;
+      vertical-align: middle;
+  }
+
+  input[type="checkbox"]:checked {
+      background-color: #555;
+  }
+
+
+  .partition2 {
+      flex: 1;
+      background-color: rgb(253, 253, 253);
+      padding: 20px;
+      margin-left: 160px;
+
+  }
+
+  .partition2 .cake1{
+  background-color: #f7ebfd;  
+margin-top: 10px;
+margin-left: 20px;
+border-radius: 20px;
+width: 1450px;
+height: 1650px;
+}
+
+.cake1 #h1{
+  top: 10px;
+  font-style: normal;
+  font-size: 50px;
+  border-top: 10px;
+  text-align: center;
+  color: #35065e;
+
+}
+
+.cake1 figcaption{
+ color: #3c1161;
+}
+.cake1 .divCat1{
+  height: 500px;
+  width:450px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+  background: #f3f1f5;
+  box-shadow: 0 0 10px 5px grey;
+  
+}
+
+
+.divCat1  img{
+      margin-top: 10px;
+      margin-left: 10px;
+      height: 380px;
+      width: 430px;
+      border-radius: 20px;
+  }
+  .divCat1  figcaption{
+  text-align: left;
+  font-weight: bolder;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  float: left;
+  margin-left: 20px;
+
+
+}
+
+.divCat1 .star{
+margin-right: 20px;
+float: right;
+margin-bottom: 20px;
+background-color: green;
+height: 30px;
+width: 43px;
+border-radius: 8px;
+text-align: center;
+font-size: 18px;
+color: #fff;
+}
+:root {
+  --purple: #821ec0;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+/* Global HTML styling */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+/* Header styling */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(251, 240, 255);
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+  font-size: 3rem;
+  color: #333;
+  font-weight: bolder;
+}
+
+header .navbar a {
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  color: #666;
+}
+
+header .icons a {
+  font-size: 3rem;
+  margin-left: 2rem;
+  color: #333;
+}
+
+header #toggler {
+  display: none;
+}
+
+header .fa-bars {
+  font-size: 3rem;
+  color: #333;
+  border-radius: .5rem;
+  padding: .5rem 1.5rem;
+  cursor: pointer;
+  border: .1rem solid #000000;
+  display: none;
+}
+
+.secondary-navbar img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 0; 
+  margin-left: 10px;
+}
+
+
+
+.secondary-navbar {
+  height: 80px; /* Example height */
+  background-color: #fae2ff; /* Example background color */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 80px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+
+}
+
+
+
+
+
+
+.secondary-navbar input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+  height: 50px;
+  width: 500px;
+  margin-left: 20px;
+}
+
+.secondary-navbar button {
+  background-color:var(--purple); /* Example button color */
+  color: #fff; /* Example button text color */
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+.secondary-navbar button:hover {
+  background-color: #000000; /* Example button hover color */
+}
+
+
+.secondary-navbar .social-icons {
+  margin-left: 800px;
+  font-size: 30px;
+
+}
+.social-icons i{
+  margin-left: 10px;
+}
+i:hover{
+color: #821ec0;
+}
+    
+
+
+/* Media queries */
+@media screen and (max-width: 991px) {
+  /* Adjustments for smaller screens */
+  html {
+      font-size: 55%;
+  }
+
+  header {
+      padding: 2rem;
+  }
+
+  .secondary-navbar input[type="text"] {
+      width: 50%; /* Adjust width */
+      margin-left: 1rem; /* Adjust margin left */
+  }
+
+  .secondary-navbar .social-icons {
+      margin-left: auto; /* Align social icons to the right */
+      font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjustments for even smaller screens */
+  header .fa-bars {
+      display: block;
+  }
+
+  header .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #fff;
+      border-top: .1rem solid black;
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header #toggler:checked ~ .navbar {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  header .navbar a {
+      margin: 1.5rem;
+      padding: 1.5rem;
+      background: #fff;
+      border: .1rem solid rgb(0, 0, 0, .1);
+      display: block;
+  }
+
+  .secondary-navbar {
+      padding: 1rem;
+      height: auto; /* Set height to auto to adjust based on content */
+      justify-content: flex-start; /* Align items to the start */
+      margin-top: 70px; /* Remove top margin */
+  }
+
+  .secondary-navbar input[type="text"] {
+      width: 60%; /* Adjust width */
+  }
+
+  .cake1 .divCat1 {
+      vertical-align: top; /* Align items vertically */
+      height: 200px; /* Adjust height */
+      width: 200px; /* Adjust width */
+  }
+  .box input{
+      height: 30px;
+      width: 300px;
+      margin-left: 10px;
+      border: #fff;
+
+     }
+     .cake1 {
+              width: calc(100% - 40px); /* Adjust width */
+              margin-left: 20px; 
+              display: flex;
+              flex-direction: column;
+          }
+          .partition2 {
+              width: calc(100% - 40px);
+              background-color: #ffffff;
+
+  }
+
+  .partition2 .cake1{
+  background-color: #ffffff;  
+border-radius: 20px;
+width: calc(100% - 20px);
+
+}
+
+.cake1 #h1{
+  top: 10px;
+  font-style: normal;
+  font-size: 35px;
+  border-top: 10px;
+  text-align: center;
+  color: #35065e;
+
+}
+
+.cake1 figcaption{
+ color: #3c1161;
+}
+.cake1 .divCat1{
+  height: 500px;
+  width:320px;
+  display: inline-block;
+  margin-left: 6px;
+  margin-top: 10px;
+  background: #ffffff;
+  box-shadow: 0 0 10px 5px grey;
+  
+}
+
+
+.divCat1  img{
+      margin-top: 10px;
+      margin-left: 10px;
+      height: 300px;
+      width: 300px;
+      border-radius: 20px;
+  }
+  .divCat1  figcaption{
+  text-align: left;
+  font-weight: bolder;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  float: left;
+  margin-left: 20px;
+
+
+}
+
+.divCat1 .star{
+margin-right: 20px;
+float: right;
+margin-bottom: 20px;
+background-color: green;
+height: 30px;
+width: 43px;
+border-radius: 8px;
+text-align: center;
+font-size: 18px;
+color: #fff;
+}
+}
+
+@media screen and (max-width: 450px) {
+  /* Adjustments for even smaller screens */
+  html {
+      font-size: 50%;
+  }
+
+  .heading {
+      font-size: 3rem;
+  }
+
+  .secondary-navbar input[type="text"] {
+      width: 60%; /* Adjust width */
+  }
+
+  .cake1 .divCat1 {
+      vertical-align: top; /* Align items vertically */
+      height: 200px; /* Adjust height */
+      width: 200px; /* Adjust width */
+  }
+}
